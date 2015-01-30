@@ -23,7 +23,8 @@ Once a value is fetched, it will be removed from stored list automatically.
 var stored_value = $.xps('obj_id');
 ```
 
-### Excute defined function
+--------------
+### Excute defined function:
 Setup an function which should be defined in the next page and excute it after page is ready.
 (If auto-run is disabled in source code, you may excute it manully.)
 ```js
@@ -34,7 +35,7 @@ $.xps('alert', 'Hello, page is ready.');
 $.xps('$.util.somefunction', arg1, arg2);
 ```
 
-### Excute un-defined function
+### Excute un-defined function:
 Setup an anoymous function to be excuted in the next page after page is ready.
 (If auto-run is disabled in source code, you may excute it manully.)
 ```js
@@ -43,7 +44,8 @@ Setup an anoymous function to be excuted in the next page after page is ready.
 $.xps('function(msg){alert(msg);}', 'someanoymous function arguments');
 ```
 
-### Excuete all stored functions. 
+--------------
+### Excuete all stored functions:
 This option is only usefull when auto-run is disabled in source code.
 ```js
 $.xps();
