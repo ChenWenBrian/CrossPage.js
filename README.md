@@ -1,5 +1,5 @@
 # jquery.xps.js
-Provide a option for JavaScript to be executed in other pages, or pass value object to other pages.
+Provide a workaround to allow JavaScript to be executed cross pages, or pass value object to other pages.
 This jquery plugin requires jquery.cookie.js
 
 ## Code Sample
